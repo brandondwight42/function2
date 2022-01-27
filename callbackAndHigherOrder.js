@@ -6,16 +6,18 @@
 */
 
 // CODE HERE
-
+const multiply = (num1, num2, cb) => cb(num1 * num2)
 
 // UNCOMMENT THE FUNCTION CALL BELOW
 // RUN THIS FILE WITH NODE
 // CHECK YOUR ANSWER
 
 multiply(4, 3, answer => {
-  return 4 * 3
-console.log('The answer is ' + answer) //should console.log 12
+  console.log('The answer is ' + answer) //should console.log 12
 })
+
+
+
 
 
 
